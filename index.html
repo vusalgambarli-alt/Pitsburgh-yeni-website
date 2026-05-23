@@ -844,7 +844,7 @@ footer { background: #0f1117; color: var(--gray-300); padding: 60px 0 24px; }
     <div class="booking-card" id="book">
       <h3>Book a Repair</h3>
       <p class="sub">⚡ We'll call you back in 2 minutes — guaranteed.</p>
-      <form id="bookForm" action="https://formspree.io/f/xkoezjnv" method="POST">
+      <form id="bookForm" action="https://formspree.io/f/mqejlbeq" method="POST">
         <div class="form-group">
           <label>Your Name</label>
           <input type="text" required placeholder="John Smith" name="name">
@@ -1286,7 +1286,7 @@ document.getElementById('bookForm').addEventListener('submit', async (e) => {
   const data = new FormData(form);
   const msg = document.getElementById('formMsg');
   try {
-    const response = await fetch('https://formspree.io/f/xkoezjnv', {
+    const response = await fetch('https://formspree.io/f/mqejlbeq', {
       method: 'POST',
       body: data,
       headers: { 'Accept': 'application/json' }
