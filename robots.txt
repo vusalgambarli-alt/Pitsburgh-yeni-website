@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# pittsburgh-appliancefix.com is a paid-traffic landing page for
+# Pro-One Appliance Repair (G-Pro Appliance Repair LLC).
+# The indexable site is https://pro-oneappliancerepair.com/
